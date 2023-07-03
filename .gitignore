@@ -1,0 +1,7 @@
+# Build files
+AGNT-NES-Emulator
+*.nes
+*.sav
+
+bin
+obj
