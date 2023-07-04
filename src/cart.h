@@ -280,7 +280,6 @@ void destroy_cart(CART *cart){
 }
 
 void print_cart_info(CART *cart){
-
 	char *fmt_str = "N/A";
 	uint8_t fmt = cart->type;
 	fmt += cart->uncertain_type ? 4 : 0;
